@@ -14,10 +14,11 @@ public class MainApp {
 
       UserService userService = context.getBean(UserService.class);
 
-      User user1 = new User("Adam", "Potter", "potter@hogwarts.com");
-      User user2 = new User("Bambo", "Granger", "granger@hogwarts.com");
-      User user3 = new User("Cermius", "Weasley", "weasley@hogwarts.com");
-      User user4 = new User("Deminion", "Lupin", "lupin@hogwarts.com");
+      User user1 = new User("User1", "User1L", "User1@hogwarts.com");
+      User user2 = new User("User2", "User2L", "User2@hogwarts.com");
+      User user3 = new User("User3", "User3L", "User3@hogwarts.com");
+      User user4 = new User("User4", "User4L", "User4@hogwarts.com");
+      // userService.add(new User("User4", "Lastname4", "user4@mail.ru"));
 
       Car car1 = new Car("Mazda", 2021);
       Car car2 = new Car("Porshe", 1001);
